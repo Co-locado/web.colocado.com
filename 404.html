@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/index.css">
+    <title>Co-locado</title>
+    <script>
+      window.fbAsyncInit = function() {
+        window.FB = FB
+        FB.init({
+          appId      : '757714229436910',
+          cookie     : true,
+          xfbml      : true,
+          version    : 'v20.0'
+        });
+
+        FB.AppEvents.logPageView();
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <script type="module" crossorigin src="/assets/index-c37861d2.js"></script>
+    <link rel="stylesheet" href="/assets/index-1f893a08.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <noscript>
+      <strong>We're sorry but this application doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    
+  </body>
+</html>
